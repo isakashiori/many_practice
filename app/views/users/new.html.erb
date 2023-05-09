@@ -1,0 +1,16 @@
+<%= t '.title' %>
+
+
+<%= form_with model: @user, local: true do |f| %>
+  <%= render 'shared/error_messages', object: f.object %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :email %>
+  <%= f.email_field :email %>
+  <%= f.label :sex %>
+  <%= f.select :sex, options_for_select([["F"],["M"]]), options = { include_blank: true} %>
+  <%= f.submit "登録"%>
+<%  end %>
+
+<% breadcrumb :user_new %>
+

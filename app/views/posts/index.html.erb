@@ -1,0 +1,5 @@
+<%= t '.title' %>
+<% if @posts.present? %>
+  <%= render @posts%>
+<% end %>
+<%= paginate @posts %>

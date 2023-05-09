@@ -1,0 +1,19 @@
+ja:
+  users:
+    new:
+      title: 'ユーザー登録'
+    index:
+      title: 'ユーザー一覧'
+  user_sessions: 
+    new:
+      title: 'ログインについて'
+      name: '名前'
+      email: 'メールアドレス'
+  posts:
+    new:
+      title: '新規投稿'
+    index:
+      title: '投稿一覧'
+  
+
+# データテーブル名の次にアクション名、次に日本語訳したいものをキーと値にして設定すること

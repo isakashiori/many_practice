@@ -1,0 +1,7 @@
+<%= user.name %><br>
+<%= user.sex %><br>
+<% if user.is_followed_by?(current_user) %>
+  <%= link_to 'unfollow', relationships_path(user), method: :delete %>
+<% else %>
+  <%= link_to 'follow', relationships_path(user), method: :post %>
+<% end %>

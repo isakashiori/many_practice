@@ -1,0 +1,2 @@
+class Beginner < AllMode
+end
