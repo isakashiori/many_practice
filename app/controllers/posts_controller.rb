@@ -10,6 +10,7 @@ class PostsController < ApplicationController
   end
 
   def create
+    #binding.pry
     @post = current_user.posts.build(post_params)
     if @post.save
       redirect_to posts_path

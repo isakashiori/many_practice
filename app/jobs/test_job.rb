@@ -2,6 +2,6 @@ class TestJob < ApplicationJob
   queue_as :default
 
   def perform(*args)
-    p "お互い不安にさせることはやめよう"
+    p "定期実行テストテストテスト"
   end
 end

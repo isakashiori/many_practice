@@ -10,6 +10,7 @@ class UserSessionsController < ApplicationController
       session[:user_id] = @user.user_id #loginformオブジェクトはidを持たないので、loginformクラスでuserメソッドを定義してユーザーidを取得するようにしてくる
       # params[:session][:remember_me] == '1' ? remember(user) : forget(user)
       redirect_to root_path
+
     else
       render :new
     end

@@ -29,12 +29,12 @@ gem 'kaminari'
 gem 'bullet'
 gem 'rails-i18n'
 gem 'whenever'
-gem 'redis-rails'
 gem 'sidekiq'
 gem 'redis-namespace'
 gem 'sinatra', require: false
 gem 'pry-nav'
 gem 'simple_form'
+gem 'redis-actionpack'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
